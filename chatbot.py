@@ -16,7 +16,7 @@ model = AzureChatOpenAI(
     azure_endpoint=azure_endpoint,
     api_key=api_key,
 )
-
+ 
 # State class to store messages and summary
 class State(MessagesState):
     summary: str
